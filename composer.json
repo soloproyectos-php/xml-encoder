@@ -1,0 +1,21 @@
+{
+    "name": "soloproyectos-php/xml-encoder",
+    "description": "A library for managing XML documents. This library is part of the SoloProyectos PHP API.",
+    "type": "php-library",
+    "license": "The MIT License (MIT)",
+    "authors": [
+        {
+            "name": "Gonzalo Chumillas",
+            "email": "gchumillas@email.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "soloproyectos-php/array": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "soloproyectos\\": "src/"
+        }
+    }
+}
